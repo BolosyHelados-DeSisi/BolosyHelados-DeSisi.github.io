@@ -1,0 +1,65 @@
+/*DISEÑO DEMÁS PAGINAS*/
+/*DATOS*/
+body {margin: 0; padding: 0; border: 0;}
+.datos{
+    background-color:#BFD8D2;
+   
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    
+    }
+    .configuracion {
+        background-color:#BFD8D2;
+        text-align: center;
+
+    }
+    /*HIPERVINCULOS*/
+    a { color: inherit; }
+/*MENÚ*/    
+    .columna {
+        font-family:courier,arial,helvética;
+        width:20%;
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        color:rgb(0, 0, 0);
+        align-items: center;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold; 
+    }
+
+    .imagencolumna{
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagencolumna img{
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        height: 100px;
+        
+    }
+    .columna:hover {color:#DF744A; text-decoration: underline;
+    }
+    .contenedor {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+/*FOTO FINAL*/
+.fondo3 {
+    margin: 0; padding: 0; border: 0;
+    background-color: #ffffff; 
+    align-items: center;
+    text-align: center;
+    }
