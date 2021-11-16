@@ -1,0 +1,227 @@
+/*DISEÑO PÁGINA PRINCIPAL*/
+body {margin: 0; padding: 0; border: 0;}
+/*DATOS*/
+.datos{
+    background-color:#BFD8D2; /*Color*/
+    align-content: center; /*Controla el espacio entre las líneas*/
+    align-items: center; /*Controla la alineación de todos los elementos en el eje transversal.*/
+    text-align: center; /*Controla la alineación del texto*/
+    width:100%;
+    
+    }
+    .configuracion {
+        background-color:#BFD8D2; /*Color*/
+        text-align: center; /*Controla la alineación del texto*/
+
+    }
+    /*HIPERVINCULOS*/
+    a { color: inherit; }/*No tome el color que viene por defecto*/
+/*MENÚ*/    
+    .columna {
+        font-family:courier,arial,helvética;
+        width:20%;
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        color:rgb(0, 0, 0);
+        align-items: center;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold; 
+    }
+
+    .imagencolumna{
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagencolumna img{
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        height: 100px;
+        
+    }
+    .columna:hover {color:#DF744A; text-decoration: underline;
+    }
+    .contenedor {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+  
+/*GALERÍA*/
+    .pasadadefotos {
+        width: 100%;
+        margin:auto;
+        overflow: hidden;
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+    .pasadadefotos ul {
+        display:flex;
+        padding: 0;
+        width: 300%;
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+        
+    }
+    .pasadadefotos li{
+        width: 100%;
+        list-style: none; 
+    }
+    .pasadadefotos img{
+        width: 100%;
+        padding: 0;
+        border: 0;
+        margin: 0%;
+    }
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    }
+    /*FONDO*/
+    .fondo {
+        background-color: #EDEDED;
+        margin: 0; padding: 0; border: 0;
+    }
+    .fondo2 {
+        margin: 0; padding: 0; border: 0;
+        background-color: #ffffff; 
+        align-items: center;
+        text-align: center;
+        
+    }
+    .fondo3 {
+        margin: 0; padding: 0; border: 0;
+        background-color: #DCB239; 
+        
+    }
+    /*BREVE DE QUIENOS SOMOS*/
+    .contenedor2 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .imagencolumna2{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagencolumna2 img{
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        width: 50%;
+        
+    }
+    .columna2 {
+        font-family:courier,arial,helvética;
+        width:50%;
+        padding: 0;
+        border: 0;
+        margin: 0%;
+        color:rgb(0, 0, 0);
+        align-items: center;
+        text-align: center;
+        shape-margin: 100%;
+}
+@media screen and (max-width: 800px){
+    .contenedor2 {
+        flex-direction: column;
+    }
+    .p {
+        font-size: 100%;
+    }
+    .imagencolumna2 {
+        width: 100%;
+    }
+}
+
+
+.temas {
+    font-family:courier,arial,helvética;
+    margin: 0 auto;
+    width:90%;
+    align-items: center;
+        text-align: center;
+}
+
+
+    /*SOBRE NOSOTROS*/
+    
+    p{
+        font-size: 110%;
+    }
+    /*MENÚ*/
+    .contenedor3 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0; 
+        align-items: center;
+        text-align: center; 
+        display: flex;
+    }
+    .contenedordelmenúmadre{
+        width: 33%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        align-items: center;
+        text-align: center;
+        display:inline-block;
+        
+    }
+    .contenedordelmenúmadre img{
+        width: 70%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 800px){
+    .contenedordelmenúmadre {
+        width: 100%;
+    }
+    /*FOTO*/
+    .imagenutl {
+        width: 40%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        
+    }
+    .imagenutl img{
+        width: 100%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        
+    }
+
+/*PARTE FINAL*/
+    }
